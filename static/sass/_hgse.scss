@@ -207,6 +207,6 @@ $video-thumb-url: '../themes/hgse/images/edx.png';
     text-align: right;
 }
 
-body header .left .cta {
+body .window-wrap header .left.nav-global .cta {
     @extend %m-btn-primary !optional;
 }
