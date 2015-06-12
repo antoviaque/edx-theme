@@ -208,5 +208,5 @@ $video-thumb-url: '../themes/hgse/images/edx.png';
 }
 
 body header .cta {
-    @extend btn-primary;
+    @include button;
 }
