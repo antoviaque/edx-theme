@@ -207,6 +207,16 @@ $video-thumb-url: '../themes/hgse/images/edx.png';
     text-align: right;
 }
 
-body .window-wrap header .left.nav-global .cta {
-    @extend %m-btn-primary !optional;
+body .window-wrap header .left.nav-global {
+    float: right;
+    margin-top: 5px;
+
+    li {
+        font-size: 1em;
+    }
+    .cta {
+        @extend %m-btn-primary !optional;
+
+        text-transform: none;
+    }
 }
