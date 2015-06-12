@@ -219,5 +219,6 @@ body .window-wrap header .left.nav-global {
         @extend %m-btn-primary !optional;
 
         text-transform: none;
+        color: $gray-2 !important;
     }
 }
